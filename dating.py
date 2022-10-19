@@ -3,6 +3,7 @@
 # Created on: Oct 18 2022
 # This program asks the user for their age it then determines if their age is in the likings of the grandparents
 
+
 def main():
 
     # Get the users age
@@ -15,11 +16,12 @@ def main():
     except Exception:
         print("Please enter a number")
     else:
-    # A if statement to see if they are greater than or equal to 25 and less then or equal to 40
+        # A if statement to see if they are greater than or equal to 25 and less then or equal to 40
         if user_num >= 25 and user_num <= 40:
             print("You can date the grandchild")
         else:
             print("You can't date the grandchild")
+
 
 if __name__ == "__main__":
     main()
